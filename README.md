@@ -5,8 +5,12 @@ one is all about object oriented programming, starting from the very basics
 of what a class even is, and building up to a full project split across
 multiple classes. Same format as before, each section walks through the
 concepts with explanations and worked examples first, then summarizes
-everything in a quick-reference table, and finishes with a practice test.
-Section 2.4 wraps up with a milestone project you can run yourself.
+everything in a quick-reference table, and finishes with a practice test —
+each one has its answers tucked behind a collapsible "Answers" section so
+you can try it yourself before checking. Section 2.4 wraps up with a
+milestone project where you build the whole thing yourself, guided
+step-by-step rather than handed finished code, with a working solution
+included to check against.
 
 > **Using this on your own?** This repo works fine as self-study — the
 > notes explain each concept from scratch with examples you can follow
@@ -35,14 +39,23 @@ Section 2.4 wraps up with a milestone project you can run yourself.
 
 | Project        | Description                                                                            | Code                                                                                                 |
 | --------------- | ---------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ |
-| War Card Game   | Two-player terminal card game, built with a class each for the card, deck and player     | [project-1-war-card-game](python-course-material/2.04-milestone-project/project-1-war-card-game)   |
+| War Card Game   | Two-player terminal card game — build your own `Card`, `Deck`, and `Player` classes     | [project-1-war-card-game](python-course-material/2.04-milestone-project/project-1-war-card-game)   |
+
+The project folder itself only contains `notes.md`, guiding you through
+writing `Card.py`, `Deck.py`, `Player.py`, and `main.py` from scratch. A
+complete, working version of all four files lives in that project's
+`solution/` folder, so you can check your work or see the finished
+version once you've given it a real attempt.
 
 ## How to Use This Course
 
 1. Work through each section's `notes.md` in order — read the concept
 tables, try the code examples yourself in Python, then take the
-practice test at the end.
-2. When you reach section 2.4, read the project write-up, then open and
-run the actual project code to see it in action.
-3. Try modifying the project once you understand it — that's the best
+practice test at the end and check your answers against the collapsed
+"Answers" section.
+2. When you reach section 2.4, read the project's `notes.md` and build
+each class yourself as it guides you through. Run it once it's working.
+3. Compare your version against `solution/` in the project folder, or
+peek at it if you get stuck.
+4. Try modifying the project once you understand it — that's the best
 way to make the concepts stick.
